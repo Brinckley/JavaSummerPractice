@@ -1,2 +1,2 @@
 # JavaSummerPractice
-Some educational Java projects 
+Here I practice making programms with frameworks, databases etc.
