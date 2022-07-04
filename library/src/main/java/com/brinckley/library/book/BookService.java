@@ -1,24 +1,39 @@
 package com.brinckley.library.book;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import java.util.List;
+import javax.persistence.Access;
+import java.util.Optional;
 
 @Service
 public class BookService {
 
-    public List<Book> getBooks() {    // something like this should be done with API Litres
-        return List.of(
-                new Book(
-                        1L,
-                        "Имя розы",
-                        "Умберто Эко",
-                        1980,
-                        710,
-                        "978-5-271-35678-0",
-                        "Елена Костюкович",
-                        16
-                )
-        );
+    private final BookRepository bookRepository;
+
+    @Autowired
+    public BookService(BookRepository bookRepository) {
+        this.bookRepository = bookRepository;
     }
+
+    public void save(Book book) {
+        bookRepository.save(book);
+    }
+
+    public Iterable<Book> findAll() {
+
+        return bookRepository.findAll();
+    }
+
+    public Boolean existsById(long id) {
+
+        return bookRepository.existsById(id);
+    }
+
+    public Optional<Book> findById(long id) {
+
+        return bookRepository.findById(id);
+    }
+
+
 }

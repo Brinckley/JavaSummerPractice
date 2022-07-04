@@ -1,96 +1,88 @@
 package com.brinckley.library.book;
 
-import org.springframework.stereotype.Component;
-import org.springframework.stereotype.Service;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
 
-import java.time.LocalDate;
+@Entity
+public class Book {  // model for table
 
-public class Book {
-    private Long id; // id maybe useless (local number)
+    @Id
+    @GeneratedValue(strategy = GenerationType.AUTO) // generating id for every new book
+    private Long id;
+
     private String title;
     private String author;
-    private int year; // date of publish
     private int pages;
-    private String ISBN; // The International Standard Book Number (ISBN)
+    private String isbn; // The International Standard Book Number (ISBN)
     private String translator;
-    private int ageLimit;
+    private int agelimit;
 
-    public Book(Long id,
-                String title,
-                String author,
-                int year,
-                int pages,
-                String ISBN,
-                String translator,
-                int ageLimit) {
-        this.id = id;
+    public Book(){}
+
+    public Book(String title, String author, String isbn) {
         this.title = title;
         this.author = author;
-        this.year = year;
-        this.pages = pages;
-        this.ISBN = ISBN;
-        this.translator = translator;
-        this.ageLimit = ageLimit;
-    }
-
-    public Book(String title,
-                String author,
-                int year,
-                int pages,
-                String ISBN,
-                String translator,
-                int ageLimit) {
-        this.author = author;
-        this.year = year;
-        this.pages = pages;
-        this.ISBN = ISBN;
-        this.translator = translator;
-        this.ageLimit = ageLimit;
+        this.pages = 0;
+        this.isbn = isbn;
+        this.translator = "";
+        this.agelimit = 0;
     }
 
     public Long getId() {
         return id;
     }
 
+    public void setId(Long id) {
+        this.id = id;
+    }
+
     public String getTitle() {
         return title;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
     }
 
     public String getAuthor() {
         return author;
     }
 
-    public int getYear() {
-        return year;
+    public void setAuthor(String author) {
+        this.author = author;
     }
 
     public int getPages() {
         return pages;
     }
 
-    public String getISBN() {
-        return ISBN;
+    public void setPages(int pages) {
+        this.pages = pages;
+    }
+
+    public String getIsbn() {
+        return isbn;
+    }
+
+    public void setIsbn(String isbn) {
+        this.isbn = isbn;
     }
 
     public String getTranslator() {
         return translator;
     }
 
-    public int getAgeLimit() {
-        return ageLimit;
+    public void setTranslator(String translator) {
+        this.translator = translator;
     }
 
-    @Override
-    public String toString() {
-        return "Book{" +
-                "id=" + id +
-                ", title='" + title + '\'' +
-                ", author='" + author + '\'' +
-                ", year=" + year +
-                ", pages=" + pages +
-                ", ISBN='" + ISBN + '\'' +
-                ", translator='" + translator + '\'' +
-                ", ageLimit=" + ageLimit +
-                '}';
+    public int getAgelimit() {
+        return agelimit;
+    }
+
+    public void setAgelimit(int agelimit) {
+        this.agelimit = agelimit;
     }
 }
