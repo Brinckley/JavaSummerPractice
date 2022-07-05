@@ -1,0 +1,775 @@
+{
+  "kind": "books#volumes",
+  "totalItems": 200,
+  "items": [
+    {
+      "kind": "books#volume",
+      "id": "QCF9AHclv_4C",
+      "etag": "BG+B4+qwx1I",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QCF9AHclv_4C",
+      "volumeInfo": {
+        "title": "Angels",
+        "subtitle": "A Novel",
+        "authors": [
+          "Marian Keyes"
+        ],
+        "publisher": "Harper Collins",
+        "publishedDate": "2009-03-17",
+        "description": "After catching her husband having an affair and being fired from her job, Maggie Walsh suddenly finds her perfectly organized existence has become a perfect mess. She decides, for the first time in her life, to do something daring -- and flees to her best friend, Emily, in the faraway wonderland of Los Angeles. In this mecca of tanned, beautiful bodies, unsvelte, uncool Maggie is decidedly a fish out of water. Yet, overnight, she's mixing with film folk, pitching scripts, even experimenting with sex -- and discovering that the end of a marriage is not the end of the world.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780061828058"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "006182805X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 448,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 23,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.6.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QCF9AHclv_4C&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QCF9AHclv_4C&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=QCF9AHclv_4C&printsec=frontcover&dq=inauthor:keyes&hl=&cd=1&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=QCF9AHclv_4C&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=QCF9AHclv_4C"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 1025.43,
+          "currencyCode": "RUB"
+        },
+        "retailPrice": {
+          "amount": 922.89,
+          "currencyCode": "RUB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=QCF9AHclv_4C&rdid=book-QCF9AHclv_4C&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 1025430000,
+              "currencyCode": "RUB"
+            },
+            "retailPrice": {
+              "amountInMicros": 922890000,
+              "currencyCode": "RUB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Angels-sample-epub.acsm?id=QCF9AHclv_4C&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QCF9AHclv_4C&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "After catching her husband having an affair and being fired from her job, Maggie Walsh suddenly finds her perfectly organized existence has become a perfect mess."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "WqorAQAAIAAJ",
+      "etag": "eisQjeoXW7Y",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/WqorAQAAIAAJ",
+      "volumeInfo": {
+        "title": "This Charming Man",
+        "authors": [
+          "Marian Keyes"
+        ],
+        "publishedDate": "2008",
+        "description": "Lola Daly has just found out that her boyfriend, gorgeous, charming and powerful politician Paddy de Courcy, is getting married - to someone else. Heartbroken, she flees Dublin to a cottage in the countryside. Can a new set of friends help her to get over him?",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "STANFORD:36105131702651"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 675,
+        "printType": "BOOK",
+        "categories": [
+          "Chick lit"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 36,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.1.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=WqorAQAAIAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=WqorAQAAIAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=WqorAQAAIAAJ&dq=inauthor:keyes&hl=&cd=2&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=WqorAQAAIAAJ&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/This_Charming_Man.html?hl=&id=WqorAQAAIAAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=WqorAQAAIAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Lola Daly has just found out that her boyfriend, gorgeous, charming and powerful politician Paddy de Courcy, is getting married - to someone else."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "HRmRqtD6oPgC",
+      "etag": "7LdjoIgNyKw",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/HRmRqtD6oPgC",
+      "volumeInfo": {
+        "title": "Rap Music and Street Consciousness",
+        "authors": [
+          "Cheryl Lynette Keyes"
+        ],
+        "publisher": "University of Illinois Press",
+        "publishedDate": "2004",
+        "description": "In this first musicological history of rap music, Cheryl L. Keyes traces the genre's history from its roots in West African bardic traditions, the Jamaican dancehall tradition, and African American vernacular expressions to its permeation of the cultural mainstream as a major tenet of hip-hop lifestyle and culture. Rap music, according to Keyes, addresses the political and economic disfranchisement of black youths and other groups, fosters ethnic pride, and displays culture values and aesthetics. Blending popular culture with folklore and ethnomusicology, Keyes offers a nuanced portrait of the artists, themes, and varying styles reflective of urban life and street consciousness. Her analysis draws on music, lives, politics, and interests of figures ranging from Afrika Bambaataa, the \"godfather of hip-hop,\" to early artists like Grandmaster Flash, to crossover pioneers like LL Cool J, De La Soul, and Public Enemy, to megastars like Tupac Shakur and The Notorious B.I.G. At the same time, Keyes delves into the impact of the rapper-turned mogul phenomenon, the rise of Death Row Records, and the East Coast-West Coast tensions of the Nineties.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0252072014"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780252072017"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 302,
+        "printType": "BOOK",
+        "categories": [
+          "Music"
+        ],
+        "averageRating": 4,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.1.2.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=HRmRqtD6oPgC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=HRmRqtD6oPgC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=HRmRqtD6oPgC&printsec=frontcover&dq=inauthor:keyes&hl=&cd=3&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=HRmRqtD6oPgC&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Rap_Music_and_Street_Consciousness.html?hl=&id=HRmRqtD6oPgC"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=HRmRqtD6oPgC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "In this first musicological history of rap music, Cheryl L. Keyes traces the genre&#39;s history from its roots in West African bardic traditions, the Jamaican dancehall tradition, and African American vernacular expressions to its permeation ..."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "QUo6AAAACAAJ",
+      "etag": "4aasiL4M258",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/QUo6AAAACAAJ",
+      "volumeInfo": {
+        "title": "Des fleurs pour Algernon",
+        "authors": [
+          "Daniel Keyes"
+        ],
+        "publisher": "J'Ai Lu",
+        "publishedDate": "2001",
+        "description": "Algernon est une souris de laboratoire dont le traitement du Pr Nemur et du Dr Strauss vient de d?cupler l'intelligence. Enhardis par cette r?ussite, les deux savants tentent alors, avec l'assistance de la psychologue Alice Kinnian, d'appliquer leur d?couverte ? Charlie Gordon, un simple d'esprit employ? dans une boulangerie. C'est bient?t l'extraordinaire ?veil de l'intelligence pour le jeune homme. Il d?couvre un monde dont il avait toujours ?t? exclu, et l'amour qui na?t entre Alice et lui ach?ve de le m?tamorphoser. Mais un jour, les facult?s sup?rieures d'Algernon d?clinent. Commence alors pour Charlie le drame atroce d'un homme qui, en pleine conscience, se sent retourner ? l'?tat de b?te...",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "2290312959"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9782290312957"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 251,
+        "printType": "BOOK",
+        "averageRating": 4.5,
+        "ratingsCount": 2,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=QUo6AAAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=QUo6AAAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "fr",
+        "previewLink": "http://books.google.ru/books?id=QUo6AAAACAAJ&dq=inauthor:keyes&hl=&cd=4&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=QUo6AAAACAAJ&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Des_fleurs_pour_Algernon.html?hl=&id=QUo6AAAACAAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=QUo6AAAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Si vous n&#39;avez jamais lu de science-fiction, commencez par ce roman ?mouvant et prenant. Qu&#39;arrive-t-il ? un simple d&#39;esprit ? qui on a tripl? le quotient intellectuel?"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "hjq7oyeoATwC",
+      "etag": "zX2U/cl/EFY",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/hjq7oyeoATwC",
+      "volumeInfo": {
+        "title": "Watermelon",
+        "authors": [
+          "Marian Keyes"
+        ],
+        "publisher": "Harper Collins",
+        "publishedDate": "2009-03-17",
+        "description": "February the fifteenth is a very special day for me. It is the day I gave birth to my first child. It is also the day my husband left me...I can only assume the two events weren't entirely unrelated. Claire has everything she ever wanted: a husband she adores, a great apartment, a good job. Then, on the day she gives birth to their first baby, James informs her that he's leaving her. Claire is left with a newborn daughter, a broken heart, and a postpartum body that she can hardly bear to look at. She decides to go home to Dublin. And there, sheltered by the love of a quirky family, she gets better. So much so, in fact, that when James slithers back into her life, he's in for a bit of a surprise.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780061833045"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0061833045"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 432,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 38,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": true,
+        "contentVersion": "0.2.2.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=hjq7oyeoATwC&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=hjq7oyeoATwC&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=hjq7oyeoATwC&printsec=frontcover&dq=inauthor:keyes&hl=&cd=5&source=gbs_api",
+        "infoLink": "https://play.google.com/store/books/details?id=hjq7oyeoATwC&source=gbs_api",
+        "canonicalVolumeLink": "https://play.google.com/store/books/details?id=hjq7oyeoATwC"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "FOR_SALE",
+        "isEbook": true,
+        "listPrice": {
+          "amount": 667.68,
+          "currencyCode": "RUB"
+        },
+        "retailPrice": {
+          "amount": 600.91,
+          "currencyCode": "RUB"
+        },
+        "buyLink": "https://play.google.com/store/books/details?id=hjq7oyeoATwC&rdid=book-hjq7oyeoATwC&rdot=1&source=gbs_api",
+        "offers": [
+          {
+            "finskyOfferType": 1,
+            "listPrice": {
+              "amountInMicros": 667680000,
+              "currencyCode": "RUB"
+            },
+            "retailPrice": {
+              "amountInMicros": 600910000,
+              "currencyCode": "RUB"
+            }
+          }
+        ]
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true,
+          "acsTokenLink": "http://books.google.ru/books/download/Watermelon-sample-epub.acsm?id=hjq7oyeoATwC&format=epub&output=acs4_fulfillment_token&dl_type=sample&source=gbs_api"
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=hjq7oyeoATwC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "February the fifteenth is a very special day for me."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "7xwtAAAAMAAJ",
+      "etag": "eD5IJuwM9jI",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/7xwtAAAAMAAJ",
+      "volumeInfo": {
+        "title": "Handbook to Higher Consciousness",
+        "authors": [
+          "Ken Keyes"
+        ],
+        "publisher": "Love Line Books",
+        "publishedDate": "1975",
+        "description": "This perennial bestseller is more popular than ever and has helped countless people experience dramatic changes in their lives from the time they begin applying the simple, effective techniques.",
+        "industryIdentifiers": [
+          {
+            "type": "OTHER",
+            "identifier": "UOM:39015014431889"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 211,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 4.5,
+        "ratingsCount": 4,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "0.3.3.0.preview.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=7xwtAAAAMAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=7xwtAAAAMAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=7xwtAAAAMAAJ&dq=inauthor:keyes&hl=&cd=6&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=7xwtAAAAMAAJ&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Handbook_to_Higher_Consciousness.html?hl=&id=7xwtAAAAMAAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=7xwtAAAAMAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "This perennial bestseller is more popular than ever and has helped countless people experience dramatic changes in their lives from the time they begin applying the simple, effective techniques."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "NyRdPgAACAAJ",
+      "etag": "bbudIFtlYlc",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/NyRdPgAACAAJ",
+      "volumeInfo": {
+        "title": "Anybody Out There?",
+        "authors": [
+          "Marian Keyes"
+        ],
+        "publishedDate": "2008-02",
+        "description": "Anna Walsh has returned to the bosom of her family in the Dublin suburbs to recuperate from the horrendous car accident that has left her with multiple fractures and a disfiguring scar across her face. Desperate to go back to New York and resume her normal life, she soon packs up her bags and returns to her job in beauty PR for punk cosmetics brand Candy Grrrl. A lonely and debilitated Anna leaves e-mails and phone messages for her mysteriously absent husband, Aidan, pleading for him to reply. ...] Meanwhile, she reminisces about their courtship and marriage while her kooky family (especially her Mum and hyperactive PI sister Helen) tries to buoy her spirits. Keyes's trademark blend of humor, diverse characters and a warm but unsentimental tone strikes gold.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "184223272X"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9781842232729"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 593,
+        "printType": "BOOK",
+        "averageRating": 4,
+        "ratingsCount": 36,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=NyRdPgAACAAJ&dq=inauthor:keyes&hl=&cd=7&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=NyRdPgAACAAJ&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Anybody_Out_There.html?hl=&id=NyRdPgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=NyRdPgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Keyes&#39;s trademark blend of humor, diverse characters and a warm but unsentimental tone strikes gold."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "8wQ0TcVvHugC",
+      "etag": "d3cRr41mAtk",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/8wQ0TcVvHugC",
+      "volumeInfo": {
+        "title": "The Brightest Star in the Sky",
+        "authors": [
+          "Marian Keyes"
+        ],
+        "publisher": "Penguin UK",
+        "publishedDate": "2011",
+        "description": "At 66, Star Street in Dublin, someone is watching over the lives of the people living in its flats. But no one is aware of it - yet... One of them is ready to take the plunge and fall in love; another is torn between two very different lovers. For some, secrets they want to stay buried will come to light and for others, the unveiling of those secrets will have tragic consequences. Fate is on its way to Star Street, bringing with it love and tragedy, friendship and heartbreak, and the power to change their lives in the most unexpected of ways...",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780141028675"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "014102867X"
+          }
+        ],
+        "readingModes": {
+          "text": true,
+          "image": false
+        },
+        "pageCount": 640,
+        "printType": "BOOK",
+        "categories": [
+          "Fiction"
+        ],
+        "averageRating": 3.5,
+        "ratingsCount": 49,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.5.3.0.preview.2",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=8wQ0TcVvHugC&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=8wQ0TcVvHugC&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=8wQ0TcVvHugC&dq=inauthor:keyes&hl=&cd=8&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=8wQ0TcVvHugC&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Brightest_Star_in_the_Sky.html?hl=&id=8wQ0TcVvHugC"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": true
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=8wQ0TcVvHugC&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Marian Keyes: what a genius&#39; Daily Mail &#39;A magical tale of love, loss, laughter and secrets&#39; Marie Claire &#39;Really rather good&#39; Independent on Sunday"
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "Cy-TAwAAQBAJ",
+      "etag": "nEemW+e75R8",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/Cy-TAwAAQBAJ",
+      "volumeInfo": {
+        "title": "Epidemiology Matters",
+        "subtitle": "A New Introduction to Methodological Foundations",
+        "authors": [
+          "Katherine M. Keyes",
+          "Sandro Galea"
+        ],
+        "publisher": "Oxford University Press, USA",
+        "publishedDate": "2014",
+        "description": "Epidemiology Matters offers a new approach to understanding and identifying the causes of disease -- and with it, how to prevent disease and improve human health. Utilizing visual explanations and examples, this text provides an accessible, step-by-step introduction to the fundamentals of epidemiologic study, from design to analysis. Across fourteen chapters, Epidemiology Matters teaches the individual competencies that underlie the conduct of an epidemiologic study: identifying populations; measuring exposures and health indicators; taking a sample; estimating associations between exposures and health indicators; assessing evidence for causes working together; assessing internal and external validity of results. With its consequentialist approach -- designing epidemiologic studies that aim to inform our understanding, and therefore improve public health -- Epidemiology Matters is an introductory text for the next generation of students in medicine and public health.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_13",
+            "identifier": "9780199331246"
+          },
+          {
+            "type": "ISBN_10",
+            "identifier": "0199331243"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": true
+        },
+        "pageCount": 239,
+        "printType": "BOOK",
+        "categories": [
+          "Medical"
+        ],
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "1.4.1.0.preview.1",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=Cy-TAwAAQBAJ&printsec=frontcover&img=1&zoom=5&edge=curl&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=Cy-TAwAAQBAJ&printsec=frontcover&img=1&zoom=1&edge=curl&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=Cy-TAwAAQBAJ&printsec=frontcover&dq=inauthor:keyes&hl=&cd=9&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=Cy-TAwAAQBAJ&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/Epidemiology_Matters.html?hl=&id=Cy-TAwAAQBAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "PARTIAL",
+        "embeddable": true,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=Cy-TAwAAQBAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "SAMPLE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "Utilizing visual explanations and examples, this text provides an accessible, step-by-step introduction to the fundamentals of epidemiologic study, from design to analysis."
+      }
+    },
+    {
+      "kind": "books#volume",
+      "id": "3vFDvgAACAAJ",
+      "etag": "mGiteEgIW68",
+      "selfLink": "https://www.googleapis.com/books/v1/volumes/3vFDvgAACAAJ",
+      "volumeInfo": {
+        "title": "The Minds of Billy Milligan",
+        "authors": [
+          "Daniel Keyes"
+        ],
+        "publisher": "Bantam",
+        "publishedDate": "1995",
+        "description": "From the bestselling author of Flowers for Algernon comes a stunning portrait of schizophrenia and crime that prompted a landmark trial--at once the story of a man with 24 personalities, one of which may have committed rape and murder, and a look at the legal ramifications of metal illness.",
+        "industryIdentifiers": [
+          {
+            "type": "ISBN_10",
+            "identifier": "0553263811"
+          },
+          {
+            "type": "ISBN_13",
+            "identifier": "9780553263817"
+          }
+        ],
+        "readingModes": {
+          "text": false,
+          "image": false
+        },
+        "pageCount": 426,
+        "printType": "BOOK",
+        "categories": [
+          "Psychology"
+        ],
+        "averageRating": 5,
+        "ratingsCount": 3,
+        "maturityRating": "NOT_MATURE",
+        "allowAnonLogging": false,
+        "contentVersion": "preview-1.0.0",
+        "panelizationSummary": {
+          "containsEpubBubbles": false,
+          "containsImageBubbles": false
+        },
+        "imageLinks": {
+          "smallThumbnail": "http://books.google.com/books/content?id=3vFDvgAACAAJ&printsec=frontcover&img=1&zoom=5&source=gbs_api",
+          "thumbnail": "http://books.google.com/books/content?id=3vFDvgAACAAJ&printsec=frontcover&img=1&zoom=1&source=gbs_api"
+        },
+        "language": "en",
+        "previewLink": "http://books.google.ru/books?id=3vFDvgAACAAJ&dq=inauthor:keyes&hl=&cd=10&source=gbs_api",
+        "infoLink": "http://books.google.ru/books?id=3vFDvgAACAAJ&dq=inauthor:keyes&hl=&source=gbs_api",
+        "canonicalVolumeLink": "https://books.google.com/books/about/The_Minds_of_Billy_Milligan.html?hl=&id=3vFDvgAACAAJ"
+      },
+      "saleInfo": {
+        "country": "RU",
+        "saleability": "NOT_FOR_SALE",
+        "isEbook": false
+      },
+      "accessInfo": {
+        "country": "RU",
+        "viewability": "NO_PAGES",
+        "embeddable": false,
+        "publicDomain": false,
+        "textToSpeechPermission": "ALLOWED",
+        "epub": {
+          "isAvailable": false
+        },
+        "pdf": {
+          "isAvailable": false
+        },
+        "webReaderLink": "http://play.google.com/books/reader?id=3vFDvgAACAAJ&hl=&printsec=frontcover&source=gbs_api",
+        "accessViewStatus": "NONE",
+        "quoteSharingAllowed": false
+      },
+      "searchInfo": {
+        "textSnippet": "A portrait of a tortured young man, arrested for a series of kidnappings and rapes, explores the world of a multiple personality, whose traumatic childhood shattered his mind into twenty-four distinct personalities. Reissue."
+      }
+    }
+  ]
+}
