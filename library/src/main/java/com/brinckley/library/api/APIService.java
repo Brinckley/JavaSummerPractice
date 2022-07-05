@@ -9,7 +9,7 @@ import org.springframework.web.client.RestTemplate;
 @Service
 public class APIService {
 
-    private final String API = "AIzaSyCPt0wvuTDENvMkY9Mf-jEmUkPaOpW1LPU";
+    private final String API = "";
     private String request = "zyTCAlFPjgYC";
     private String website = "https://www.googleapis.com/books/v1/volumes/";
     private String key = "?key=";
