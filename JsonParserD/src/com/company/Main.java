@@ -5,15 +5,47 @@ import com.google.gson.JsonElement;
 import com.google.gson.JsonObject;
 import com.google.gson.JsonParser;
 
-import java.io.File;
-import java.io.FileNotFoundException;
-import java.io.FileReader;
+import java.io.*;
+import java.net.HttpURLConnection;
+import java.net.URL;
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Scanner;
 
 public class Main {
 
-    public static void main(String[] args) throws FileNotFoundException {
+    public static void getJSONIntoFile() throws IOException {
+        URL url = new URL("https://www.googleapis.com/books/v1/volumes?q=inauthor:keyes&key=???????");
+
+        HttpURLConnection conn = (HttpURLConnection) url.openConnection();
+        conn.setRequestMethod("GET");
+        conn.connect();
+
+        if (conn.getResponseCode() != 200) {
+            throw new RuntimeException("HttpResponseCode: " + conn.getResponseCode());
+        } else {
+
+            String inline = "";
+            Scanner scanner = new Scanner(url.openStream());
+
+            //Write all the JSON data into a string using a scanner
+            while (scanner.hasNext()) {
+                inline += scanner.nextLine();
+            }
+            //Close the scanner
+            scanner.close();
+
+            FileWriter fileWriter = new FileWriter("D:/C/data.json");
+            PrintWriter printWriter = new PrintWriter(fileWriter);
+            printWriter.print(inline);
+            printWriter.close();
+        }
+    }
+
+    public static void main(String[] args) throws FileNotFoundException, IOException {
+
+        getJSONIntoFile();
+
         File input = new File("D:/C/data.json");
         List<Book> bookList = new ArrayList<>();
 
