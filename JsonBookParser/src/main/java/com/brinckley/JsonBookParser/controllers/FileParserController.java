@@ -7,6 +7,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -23,11 +26,13 @@ public class FileParserController {
     }
 
     @GetMapping("/load-file")
-    private String fileIntoTheTable(Model model) {
+    @ResponseBody // "D:/C/data.json"
+    // /load-file?path=D:/C/data.json
+    private String fileIntoTheTable(@RequestParam String path, Model model) {
         JsonBookParser jsonBookParser = new JsonBookParser();
         List<Book> bookList = new ArrayList<>();
         try {
-            bookList = jsonBookParser.readJsonFromFileToList("D:/C/data.json");
+            bookList = jsonBookParser.readJsonFromFileToList(path);
         } catch (IOException e) {
             e.printStackTrace();
         }

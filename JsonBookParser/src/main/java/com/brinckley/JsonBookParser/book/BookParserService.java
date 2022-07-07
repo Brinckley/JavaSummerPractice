@@ -3,6 +3,7 @@ package com.brinckley.JsonBookParser.book;
 import com.brinckley.JsonBookParser.book.Book;
 import com.brinckley.JsonBookParser.book.BookParserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.data.domain.Example;
 import org.springframework.stereotype.Service;
 
 import java.util.Optional;
@@ -18,7 +19,9 @@ public class BookParserService {
     }
 
     public void save(Book book) {
-        bookRepository.save(book);
+        if(!bookRepository.exists(Example.of(book))) {
+            bookRepository.save(book);
+        }
     }
 
     public Iterable<Book> findAll() {

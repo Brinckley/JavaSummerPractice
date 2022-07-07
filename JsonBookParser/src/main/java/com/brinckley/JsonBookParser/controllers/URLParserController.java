@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.ResponseBody;
 
 import java.net.MalformedURLException;
 import java.net.URL;
@@ -24,8 +26,9 @@ public class URLParserController {
     }
 
     @GetMapping("/load-URL")
-    private String URLIntoTheTable(Model model) {
-        JsonBookParser jsonBookParser = new JsonBookParser("eco");
+    @ResponseBody // load-URL?q=....
+    private String URLIntoTheTable(@RequestParam String q, Model model) {
+        JsonBookParser jsonBookParser = new JsonBookParser(q);
         URL u = null;
         try {
             u = jsonBookParser.URLBuilder();
@@ -33,9 +36,7 @@ public class URLParserController {
             e.printStackTrace();
         }
         System.out.println(u);
-        List<Book> bookList = new ArrayList<>();
-        bookList = jsonBookParser.readJsonFromURLToList();
-        System.out.println(bookList.size());
+        List<Book> bookList = jsonBookParser.readJsonFromURLToList();
         for (Book book : bookList) {
             bookParserService.save(book);
         }
