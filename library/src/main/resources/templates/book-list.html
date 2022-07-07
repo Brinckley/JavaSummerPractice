@@ -14,8 +14,8 @@
     <h1>Library</h1>
     <div th:each="el : ${books}" class="alert alert-info mt-2">
         <h3 th:text="${el.title}"/>
-        <h3 th:text="${el.author}"/>
-        <h3 th:text="${el.isbn}"/>
+        <h3 th:text="${el.authors}"/>
+        <h3 th:text="${el.googleBooksId}"/>
         <a th:href="'/book-list/' + ${el.id}">About</a>
 
     </div>
