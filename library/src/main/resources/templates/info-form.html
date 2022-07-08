@@ -12,8 +12,15 @@
 
 <div class="container mt-5">
     <h1>Book view</h1>
-    <h3 th:text="${book.author}"/>
-    <h3 th:text="${book.isbn}"/>
+    <h3 th:text="'Title:       ' + ${book.title}"/>
+    <h3 th:text="'Authors:     ' + ${book.authors}"/>
+    <h3 th:text="'Google id:   ' + ${book.googleBooksId}"/>
+    <h3 th:text="'Publisher:   ' + ${book.publisher}"/>
+    <h3 th:text="'Published:   ' + ${book.publishedDate}"/>
+    <h3 th:text="'Description: ' + ${book.description}"/>
+    <h3 th:text="'Pages:       ' + ${book.pageCount}"/>
+    <h3 th:text="'Categories:  ' + ${book.categories}"/>
+    <h3 th:text="'Language:    ' + ${book.language}"/>
 </div>
 
 <div th:insert="blocks/footer.html :: footer"></div>

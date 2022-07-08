@@ -49,4 +49,20 @@ public class Book implements Serializable {  // model for table
         this.language = language;
         this.googleBooksId = googleBooksId;
     }
+
+    @Override
+    public String toString() {
+        return "Book{" +
+                "id=" + id +
+                ", title='" + title + '\'' +
+                ", authors='" + authors + '\'' +
+                ", publisher='" + publisher + '\'' +
+                ", publishedDate='" + publishedDate + '\'' +
+                ", description='" + description + '\'' +
+                ", pageCount=" + pageCount +
+                ", categories='" + categories + '\'' +
+                ", language='" + language + '\'' +
+                ", googleBooksId='" + googleBooksId + '\'' +
+                '}';
+    }
 }

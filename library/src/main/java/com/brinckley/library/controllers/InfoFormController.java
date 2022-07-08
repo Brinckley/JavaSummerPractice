@@ -28,9 +28,9 @@ public class InfoFormController {
     public String info(@PathVariable(value = "id") long id, Model model) {
         if(bookService.existsById(id)) {
             Optional<Book> optional = bookService.findById(id);
-            List<Book> res = new ArrayList<>();
-            optional.ifPresent(res::add);
-            model.addAttribute("book", optional);
+
+            System.out.println(optional.get());
+            model.addAttribute("book", optional.get());
             return "info-form";
         }
         return "redirect:/book-list";
