@@ -155,12 +155,12 @@ public class JsonBookParser {
             }
 
             Book book = new Book(title,
-                    authors.toString(),
+                    authors.toString().substring(1, authors.toString().length() - 1),
                     publisher,
                     publishedDate,
                     description,
                     pageCount,
-                    categories.toString(),
+                    categories.toString().substring(1, categories.toString().length() - 1),
                     language,
                     id);
             bookList.add(book);
