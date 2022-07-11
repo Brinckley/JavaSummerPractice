@@ -103,7 +103,7 @@ public class JsonBookParser {
     private List<Book> extractBookListFromJsonArray(JsonArray jsonArrayOfBooks) {
         List<Book> bookList = new ArrayList<>();
         for (JsonElement element : jsonArrayOfBooks) {
-            String id = "", title = "", publisher = "", publishedDate = "", description = "", language = "";
+            String id = "NO DATA", title = "NO DATA", publisher = "NO DATA", publishedDate = "NO DATA", description = "NO DATA", language = "NO DATA";
             List<String> categories = new ArrayList<>(), authors = new ArrayList<>();
             Integer pageCount = -1;
 
