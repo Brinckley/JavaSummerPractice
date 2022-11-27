@@ -16,7 +16,7 @@ import java.util.Scanner;
 
 public class JsonBookParser {
 
-    private final String APIKey = "AIzaSyCPt0wvuTDENvMkY9Mf-jEmUkPaOpW1LPU";
+    private final String APIKey = "";
 
     private String website_www;
     private String website_folders;
